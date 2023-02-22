@@ -1,2 +1,2 @@
 # portfolio-gui
- Primeiro projeto
+ Primeiro Projeto
