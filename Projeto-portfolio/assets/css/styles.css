@@ -490,7 +490,10 @@ padding-top: 1rem;
 }
 
 /* Services modal */
-
+.services__modal{
+  position: fixed;
+  inset: ;
+}
 
 /*Active modal*/
 
