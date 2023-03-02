@@ -454,7 +454,17 @@ padding-top: 1rem;
   font-size: var(--tiny-font-size);
 }
 /*=============== SERVICES ===============*/
+.services__container{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
 
+.services__card{
+  background-color: var(--container-color);
+  padding: 3rem 1.5rem 1.5rem;
+  border-radius: 1rem;
+}
 
 /* Services modal */
 
