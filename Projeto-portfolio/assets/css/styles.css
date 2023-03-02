@@ -449,6 +449,10 @@ padding-top: 1rem;
   font-weight: var(--font-medium);
   line-height: 18px;
 }
+
+.skills__level{
+  font-size: var(--tiny-font-size);
+}
 /*=============== SERVICES ===============*/
 
 
