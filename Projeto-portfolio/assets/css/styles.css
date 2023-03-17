@@ -493,7 +493,7 @@ padding-top: 1rem;
 .services__modal{
   position: fixed;
   inset: 0;
-  background-color: hsla (var(--second-hue), 28%, 16%, .7);
+  background-color: hsla(var(--second-hue), 28%, 16%, .7);
   padding: 2rem 1rem;
   display: grid;
 }
