@@ -503,7 +503,11 @@ padding-top: 1rem;
   z-index: var(--z-modal);
 }
 
-.services__modal-content
+.services__modal-content{
+  position: relative;
+  background-color: var(--body-color);
+  
+}
 
 /*Active modal*/
 
