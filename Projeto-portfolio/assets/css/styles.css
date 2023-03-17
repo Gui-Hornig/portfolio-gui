@@ -515,6 +515,11 @@ padding-top: 1rem;
   text-align: center;
 }
 
+.services__modal-title{
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
 /*Active modal*/
 
 
