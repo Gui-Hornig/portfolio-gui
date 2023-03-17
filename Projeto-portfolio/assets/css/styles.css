@@ -530,6 +530,12 @@ padding-top: 1rem;
   display: grid;
   row-gap: .75rem;
 }
+
+.services__modal-item{
+  display: flex;
+  align-items: flex-start;
+  column-gap: .5rem;
+}
 /*Active modal*/
 
 
