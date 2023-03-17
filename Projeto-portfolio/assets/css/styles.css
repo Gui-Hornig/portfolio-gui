@@ -496,7 +496,14 @@ padding-top: 1rem;
   background-color: hsla(var(--second-hue), 28%, 16%, .7);
   padding: 2rem 1rem;
   display: grid;
+  place-items: center;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  transition: .4s;
+  z-index: var(--z-modal);
 }
+
+.services__modal-content
 
 /*Active modal*/
 
