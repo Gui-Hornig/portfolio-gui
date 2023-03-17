@@ -536,6 +536,11 @@ padding-top: 1rem;
   align-items: flex-start;
   column-gap: .5rem;
 }
+
+.services__modal-icon{
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
 /*Active modal*/
 
 
