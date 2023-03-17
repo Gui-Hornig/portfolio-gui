@@ -546,7 +546,9 @@ padding-top: 1rem;
   font-size: var(--small-font-size);
 }
 
-.services
+.services__modal-close{
+  position: absolute;
+}
 /*Active modal*/
 
 
