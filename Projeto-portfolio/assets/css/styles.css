@@ -492,7 +492,8 @@ padding-top: 1rem;
 /* Services modal */
 .services__modal{
   position: fixed;
-  inset: ;
+  inset: 0;
+  background-color: hsla(hue, saturation, lightness, alpha);
 }
 
 /*Active modal*/
