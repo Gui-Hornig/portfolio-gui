@@ -510,7 +510,10 @@ padding-top: 1rem;
   border-radius: 1.5rem;
 }
 
-
+.services__modal-title,
+.services__modal-description{
+  text-align: center;
+}
 
 /*Active modal*/
 
