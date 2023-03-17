@@ -541,6 +541,12 @@ padding-top: 1rem;
   font-size: 1.5rem;
   color: var(--first-color);
 }
+
+.services__modal-info{
+  font-size: var(--small-font-size);
+}
+
+.services
 /*Active modal*/
 
 
