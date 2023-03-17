@@ -539,7 +539,7 @@ padding-top: 1rem;
 
 .services__modal-icon{
   font-size: 1.5rem;
-  color: var(--first-color);
+  color: var(--first-color);  /* posivel erro pois não ficou roxo */
 }
 
 .services__modal-info{
