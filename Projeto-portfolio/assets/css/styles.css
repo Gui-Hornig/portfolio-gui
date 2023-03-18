@@ -537,9 +537,9 @@ padding-top: 1rem;
   column-gap: .5rem;
 }
 
-.services__modal-icon{
+.services__modal_icon{
   font-size: 1.5rem;
-  color: var(--first-color);  /* posivel erro pois não ficou roxo */
+  color: var(--first-color);  /* posivel erro pois não ficou roxo / resolvido */ 
 }
 
 .services__modal-info{
