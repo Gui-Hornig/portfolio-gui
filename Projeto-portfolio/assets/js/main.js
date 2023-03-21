@@ -16,7 +16,9 @@ let modal = function(modalClick){
     modalViews[modalClick].classList.add('active-modal')
 }
 
-modalBtns.forEach(())
+modalBtns.forEach((mb, i) =>{
+    modal(i)
+}
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
 
