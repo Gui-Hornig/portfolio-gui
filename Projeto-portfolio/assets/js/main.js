@@ -8,7 +8,7 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== SERVICES MODAL ===============*/
-
+const
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 

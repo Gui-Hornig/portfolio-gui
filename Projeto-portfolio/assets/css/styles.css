@@ -497,8 +497,8 @@ padding-top: 1rem;
   padding: 2rem 1rem;
   display: grid;
   place-items: center;
-  /* visibility: hidden; */
-  /* opacity: 0; */
+  visibility: hidden;
+   opacity: 0;
   transition: .4s;
   z-index: var(--z-modal);
 }
@@ -548,6 +548,11 @@ padding-top: 1rem;
 
 .services__modal-close{
   position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  cursor: pointer;
 }
 /*Active modal*/
 
