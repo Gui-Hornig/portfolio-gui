@@ -23,13 +23,13 @@ modalBtns.forEach((mb, i) =>{
     
 })
 
-modalClose.forEach((mc) =>
+modalClose.forEach((mc) =>{
     mc.addEventListener('click', () => {
         modalViews.forEach((mv) => {
-            mv.classList
+            mv.classList.remove('active-modal')
         })
     })
-)
+})
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
 
