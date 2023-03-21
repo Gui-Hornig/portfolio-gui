@@ -25,7 +25,9 @@ modalBtns.forEach((mb, i) =>{
 
 modalClose.forEach((mc) =>
     mc.addEventListener('click', () => {
-        modal
+        modalViews.forEach((mv) => {
+            mv.classList
+        })
     })
 )
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
