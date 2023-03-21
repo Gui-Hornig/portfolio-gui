@@ -17,7 +17,9 @@ let modal = function(modalClick){
 }
 
 modalBtns.forEach((mb, i) =>{
-    mb.addEventListener('click', () =>)
+    mb.addEventListener('click', () =>{
+        modal(i)
+    })
     
 })
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
