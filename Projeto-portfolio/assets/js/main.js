@@ -12,7 +12,9 @@ const modalViews = document.querySelectorAll('.services__modal'),
       modalBtns = document.querySelectorAll('.services__button'),
       modalClose = document.querySelectorAll('.services__modal-close')
 
-let modal = function(modalClick)
+let modal = function(modalClick){
+    modalViews[modalClick].classList.add
+}
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
 
