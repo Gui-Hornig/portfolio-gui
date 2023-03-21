@@ -13,7 +13,7 @@ const modalViews = document.querySelectorAll('.services__modal'),
       modalClose = document.querySelectorAll('.services__modal-close')
 
 let modal = function(modalClick){
-    modalViews[modalClick].classList.add
+    modalViews[modalClick].classList.add('active-modal')
 }
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
