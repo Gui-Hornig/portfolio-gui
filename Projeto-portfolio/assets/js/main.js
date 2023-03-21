@@ -8,7 +8,7 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== SERVICES MODAL ===============*/
-const
+const modalViews = document.querySelectorAll('.services__modal')
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
