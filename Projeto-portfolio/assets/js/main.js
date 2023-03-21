@@ -22,6 +22,8 @@ modalBtns.forEach((mb, i) =>{
     })
     
 })
+
+modalClose.forEach(())
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
 
