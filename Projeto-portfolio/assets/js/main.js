@@ -10,7 +10,7 @@ window.addEventListener('scroll', scrollHeader)
 /*=============== SERVICES MODAL ===============*/
 const modalViews = document.querySelectorAll('.services__modal'),
     modalViews = document.querySelectorAll('.services__button'),
-    mo
+    modalClose = document.querySelectorAll('.services__modal')
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
