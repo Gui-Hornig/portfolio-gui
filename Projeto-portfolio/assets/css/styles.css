@@ -574,7 +574,9 @@ padding-top: 1rem;
 }
 
 .work__item{
-  
+  cursor: pointer;
+  color: var(--title-color);
+  padding: ;
 }
 /* Active item work*/
 
