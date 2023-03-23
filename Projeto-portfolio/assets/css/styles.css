@@ -606,6 +606,10 @@ padding-top: 1rem;
   align-items: center;
   column-gap: .25rem;
 }
+
+.work__button:hover .work__icon{
+  
+}
 /* Active item work*/
 
 
