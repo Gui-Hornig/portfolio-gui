@@ -613,6 +613,7 @@ padding-top: 1rem;
 
 .work__icon{
   font-size: 1rem;
+  transform: .4s;
 }
 /* Active item work*/
 
