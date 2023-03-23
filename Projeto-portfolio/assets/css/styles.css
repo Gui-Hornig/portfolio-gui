@@ -582,7 +582,7 @@ padding-top: 1rem;
 }
 
 .work__card{
-  background-color: var();
+  background-color: var(--container-color);
 }
 /* Active item work*/
 
