@@ -602,7 +602,8 @@ padding-top: 1rem;
   width: max-content;
   color: var(--first-color);
   font-size: var(--small-font-size);
-  display: ;
+  display: flex;
+  
 }
 /* Active item work*/
 
