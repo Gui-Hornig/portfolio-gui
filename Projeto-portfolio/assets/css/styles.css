@@ -608,7 +608,11 @@ padding-top: 1rem;
 }
 
 .work__button:hover .work__icon{
-  
+  transform: translateX(.25rem);
+}
+
+.work__icon{
+  font-size: 1rem;
 }
 /* Active item work*/
 
