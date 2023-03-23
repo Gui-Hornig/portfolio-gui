@@ -587,7 +587,10 @@ padding-top: 1rem;
   border-radius: 1rem;
 }
 
-.work__img
+.work__img{
+  border-radius: 1rem;
+  
+}
 /* Active item work*/
 
 
