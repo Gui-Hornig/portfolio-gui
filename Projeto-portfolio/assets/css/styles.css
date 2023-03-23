@@ -599,6 +599,7 @@ padding-top: 1rem;
 }
 
 .work__button{
+  width: max-content;
   
 }
 /* Active item work*/
