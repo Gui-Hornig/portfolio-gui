@@ -603,6 +603,7 @@ padding-top: 1rem;
   color: var(--first-color);
   font-size: var(--small-font-size);
   display: flex;
+  align-items: center;
   
 }
 /* Active item work*/
