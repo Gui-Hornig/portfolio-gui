@@ -580,6 +580,10 @@ padding-top: 1rem;
   font-weight: var(--font-medium);
   border-radius: .5rem;
 }
+
+.work__card{
+  background-color: var();
+}
 /* Active item work*/
 
 
