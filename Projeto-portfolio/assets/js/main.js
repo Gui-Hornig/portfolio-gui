@@ -46,6 +46,7 @@ const linkWork = document.querySelectorAll('.work__item')
 
 function activeWork(){
     linkWork.forEach(l=> l.classList.remove('active-work'))
+    this.classList.add
 }
 
 
