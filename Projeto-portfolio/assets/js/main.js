@@ -49,6 +49,7 @@ function activeWork(){
     this.classList.add('active-work')
 }
 
+linkWork.forEach(l=> l.addEventListener('click', activeWork))
 
 /*=============== SWIPER TESTIMONIAL ===============*/
 
