@@ -35,8 +35,10 @@ var mixer = mixitup (containerEl,{
     selectors: {
         target: '.blog-item'
     },
-    Animation
-})
+    animation: {
+        duration: 300
+    }
+});
 
 /* Link active work */ 
 
