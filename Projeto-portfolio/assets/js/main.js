@@ -32,7 +32,10 @@ modalClose.forEach((mc) =>{
 })
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 var mixer = mixitup (containerEl,{
-    selectors: {}
+    selectors: {
+        target: '.blog-item'
+    },
+    Animation
 })
 
 /* Link active work */ 
