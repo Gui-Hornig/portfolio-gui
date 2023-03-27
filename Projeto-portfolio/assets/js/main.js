@@ -31,9 +31,9 @@ modalClose.forEach((mc) =>{
     })
 })
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
-let mixerPortfolio = mixitup ('work__container', {
+let mixerPortfolio = mixitup ('.work__container', {
     selectors: {
-        target: '.blog-item'
+        target: '.work__card'
     },
     animation: {
         duration: 300
