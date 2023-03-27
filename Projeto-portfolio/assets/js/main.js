@@ -42,7 +42,11 @@ let mixerPortfolio = mixitup ('.work__container', {
 
 /* Link active work */ 
 
-const linkWork
+const linkWork = document.querySelectorAll('.work__item')
+
+function activeWork(){
+    link
+}
 
 
 /*=============== SWIPER TESTIMONIAL ===============*/
