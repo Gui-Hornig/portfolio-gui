@@ -42,6 +42,8 @@ let mixerPortfolio = mixitup ('.work__container', {
 
 /* Link active work */ 
 
+const linkWork
+
 
 /*=============== SWIPER TESTIMONIAL ===============*/
 
