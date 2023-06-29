@@ -636,7 +636,7 @@ margin-bottom: 3rem;
 }
 
 .testimonial__name{
-  font-size: var();
+  font-size: var(--normal-font-size);
 }
 
 /* Swiper class */
