@@ -622,7 +622,7 @@ padding-top: 1rem;
 }
 
 /*=============== TESTIMONIAL ===============*/
-.testimonial__card{^
+.testimonial__card{
 background-color: var(--container-color);
 padding: 1.25rem 1.5rem;
 }
