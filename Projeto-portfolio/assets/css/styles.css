@@ -625,7 +625,8 @@ padding-top: 1rem;
 .testimonial__card{
 background-color: var(--container-color);
 padding: 1.25rem 1.5rem;
-border-radius: ;
+border-radius: 1.5rem;
+
 }
 
 /* Swiper class */
