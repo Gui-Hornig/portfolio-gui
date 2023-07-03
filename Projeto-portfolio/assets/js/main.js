@@ -52,7 +52,9 @@ function activeWork(){
 linkWork.forEach(l=> l.addEventListener('click', activeWork))
 
 /*=============== SWIPER TESTIMONIAL ===============*/
-var swper = new Swiper
+var swper = new Swiper(".mySwiper",{
+    spaceBetween
+})
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
