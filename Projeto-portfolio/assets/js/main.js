@@ -56,8 +56,8 @@ var swper = new Swiper(".mySwiper",{
     spaceBetween: {
         el: ".swiper-pagination",
         clikabla: true,
-    }
-})
+    },
+});
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
