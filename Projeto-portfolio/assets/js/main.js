@@ -52,7 +52,7 @@ function activeWork(){
 linkWork.forEach(l=> l.addEventListener('click', activeWork))
 
 /*=============== SWIPER TESTIMONIAL ===============*/
-let swiperTestimonial = new Swiper(".tertimonial__container",{
+let swiperTestimonial = new Swiper(".testimonial__container",{
     spaceBetween: 24,
     loop: true,
     grabCursor: true,
