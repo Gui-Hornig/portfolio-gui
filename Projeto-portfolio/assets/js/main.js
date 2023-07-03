@@ -53,7 +53,9 @@ linkWork.forEach(l=> l.addEventListener('click', activeWork))
 
 /*=============== SWIPER TESTIMONIAL ===============*/
 var swper = new Swiper(".mySwiper",{
-    spaceBetween
+    spaceBetween: {
+        el: ".swiper-pagination"
+    }
 })
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
