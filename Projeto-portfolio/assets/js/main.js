@@ -56,10 +56,10 @@ let swiperTestimonial = new Swiper(".tertimonial__container",{
     spaceBetween: 24,
     loop: true,
     grabCursor: true,
-    
+
     pagination: { 
         el: ".swiper-pagination",
-        clikabla: true,
+        clickable: true,
     },
 });
 
