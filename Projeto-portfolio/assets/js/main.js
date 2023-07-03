@@ -52,7 +52,7 @@ function activeWork(){
 linkWork.forEach(l=> l.addEventListener('click', activeWork))
 
 /*=============== SWIPER TESTIMONIAL ===============*/
-let swiperTestimonial = new Swiper(".mySwiper",{
+let swiperTestimonial = new Swiper(".tertimonial__container",{
     spaceBetween: {
         el: ".swiper-pagination",
         clikabla: true,
