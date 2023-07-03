@@ -641,7 +641,9 @@ margin-bottom: 3rem;
   margin-bottom: .25rem;
 }
 
-.testimonial__card
+.testimonial__description{
+  font-size: ;
+}
 
 /* Swiper class */
 
