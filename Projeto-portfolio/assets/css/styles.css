@@ -646,7 +646,9 @@ margin-bottom: 3rem;
 }
 
 /* Swiper class */
-.swiper-pagination-bullet{}
+.swiper-pagination-bullet{
+  background-color: var(--text-color-light);
+}
 
 /*=============== CONTACT ===============*/
 
