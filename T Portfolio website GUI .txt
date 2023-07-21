@@ -186,7 +186,7 @@ Testimonials
 
 .footer__social-link
 https://www.facebook.com/
-https://www.instagram.com/
+
 https://twitter.com/
 
 .footer__copy
