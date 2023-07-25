@@ -675,6 +675,7 @@ margin-bottom: 3rem;
   background-color: var(--container-color);
   padding: 1rem;
   border-radius: .75rem;
+  text-align: center;
 }
 /*=============== FOOTER ===============*/
 
