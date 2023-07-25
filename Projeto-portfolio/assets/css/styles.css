@@ -686,7 +686,7 @@ margin-bottom: 3rem;
 
 .contact__card-title,
 .contact__card-data{
-  font-size: var(-);
+  font-size: var(--small-font-size);
 }
 /*=============== FOOTER ===============*/
 
