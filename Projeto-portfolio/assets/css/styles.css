@@ -683,6 +683,11 @@ margin-bottom: 3rem;
   color: var(--title-color);
   margin-bottom: .25rem;
 }
+
+.contact__card-title,
+.contact__card-data{
+  font-size: var(-);
+}
 /*=============== FOOTER ===============*/
 
 
