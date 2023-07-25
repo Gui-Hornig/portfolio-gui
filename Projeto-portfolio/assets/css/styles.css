@@ -692,6 +692,10 @@ margin-bottom: 3rem;
 .contact__card-title{
   font-weight: var(--font-medium);
 }
+
+.contact__card-data{
+  display:block;
+}
 /*=============== FOOTER ===============*/
 
 
