@@ -663,6 +663,7 @@ margin-bottom: 3rem;
 .contact__title{
   text-align: center;
   font-size: var(--h3-font-size);
+  margin-bottom: 1.5rem;
 }
 /*=============== FOOTER ===============*/
 
