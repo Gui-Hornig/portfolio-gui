@@ -694,7 +694,8 @@ margin-bottom: 3rem;
 }
 
 .contact__card-data{
-  display:block;
+  display: block;
+  margin-bottom: .75;
 }
 /*=============== FOOTER ===============*/
 
