@@ -702,6 +702,7 @@ margin-bottom: 3rem;
   color: var(--first-color);
   font-size: var(--small-font-size);
   display: flex;
+  align-items: center;
 }
 /*=============== FOOTER ===============*/
 
