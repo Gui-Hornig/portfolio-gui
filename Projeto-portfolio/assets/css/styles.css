@@ -671,7 +671,9 @@ margin-bottom: 3rem;
   gap: 1rem;
 }
 
-.contact__card{}
+.contact__card{
+  background-color: var(--container-color);
+}
 /*=============== FOOTER ===============*/
 
 
