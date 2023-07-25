@@ -706,6 +706,8 @@ margin-bottom: 3rem;
   justify-content: center;
   column-gap: .25rem;
 }
+
+.contact__button:hover .contact__button-con{}
 /*=============== FOOTER ===============*/
 
 
