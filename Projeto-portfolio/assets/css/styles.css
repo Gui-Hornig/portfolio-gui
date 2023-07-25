@@ -681,6 +681,7 @@ margin-bottom: 3rem;
 .contact__card-icon{
   font-size: 2rem;
   color: var(--title-color);
+  margin-bottom: .25rem;
 }
 /*=============== FOOTER ===============*/
 
