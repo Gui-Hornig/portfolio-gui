@@ -690,7 +690,7 @@ margin-bottom: 3rem;
 }
 
 .contact__card-title{
-  
+  font-weight: var(--font-medium);
 }
 /*=============== FOOTER ===============*/
 
