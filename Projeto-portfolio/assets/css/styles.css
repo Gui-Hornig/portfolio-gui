@@ -700,6 +700,7 @@ margin-bottom: 3rem;
 
 .contact__button{
   color: var(--first-color);
+  font-size: var(--small-font-size);
 }
 /*=============== FOOTER ===============*/
 
