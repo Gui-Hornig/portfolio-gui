@@ -707,7 +707,7 @@ margin-bottom: 3rem;
   column-gap: .25rem;
 }
 
-.contact__button:hover .contact__button-con{
+.contact__button:hover .contact__button-icon{
   transform: translateX(.25rem);
 }
 /*=============== FOOTER ===============*/
