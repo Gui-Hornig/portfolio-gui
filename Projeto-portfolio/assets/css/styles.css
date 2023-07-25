@@ -698,8 +698,8 @@ margin-bottom: 3rem;
   margin-bottom: .75rem;
 }
 
-.contact__buttton{
-  
+.contact__button{
+  color: var(--first-color);
 }
 /*=============== FOOTER ===============*/
 
