@@ -673,6 +673,7 @@ margin-bottom: 3rem;
 
 .contact__card{
   background-color: var(--container-color);
+  padding: 1rem;
 }
 /*=============== FOOTER ===============*/
 
