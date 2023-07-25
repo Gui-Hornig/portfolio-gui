@@ -666,7 +666,9 @@ margin-bottom: 3rem;
   margin-bottom: 1.5rem;
 }
 
-.contact__info
+.contact__info{
+  display: grid;
+}
 /*=============== FOOTER ===============*/
 
 
