@@ -744,6 +744,10 @@ margin-bottom: 3rem;
   padding: .25rem;
   background-color: var(--body-color);
   z-index: 10;
+
+  .contact__form-area{
+    
+  }
 }
 /*=============== FOOTER ===============*/
 
