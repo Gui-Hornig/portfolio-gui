@@ -740,7 +740,7 @@ margin-bottom: 3rem;
   position: absolute;
   top: -.75rem;
   left: 1.25rem;
-  
+  font-size: var(--small-font-size);
 }
 /*=============== FOOTER ===============*/
 
