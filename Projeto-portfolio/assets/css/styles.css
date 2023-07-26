@@ -717,7 +717,7 @@ margin-bottom: 3rem;
 }
 
 .contact__form-div{
-
+  position: relative;
 }
 /*=============== FOOTER ===============*/
 
