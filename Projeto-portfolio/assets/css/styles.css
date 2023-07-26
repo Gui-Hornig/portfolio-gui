@@ -751,7 +751,7 @@ margin-bottom: 3rem;
 }
 
 .contact__form-area textarea{
-
+  resize: none;
 }
 /*=============== FOOTER ===============*/
 
