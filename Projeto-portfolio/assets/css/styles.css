@@ -731,6 +731,8 @@ margin-bottom: 3rem;
   background: none;
   color: var(--text-color);
   outline: none;
+  padding: 1.5rem;
+  
 }
 /*=============== FOOTER ===============*/
 
