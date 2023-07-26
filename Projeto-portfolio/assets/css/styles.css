@@ -742,6 +742,7 @@ margin-bottom: 3rem;
   left: 1.25rem;
   font-size: var(--small-font-size);
   padding: .25rem;
+  background-color: var(--body-color);
   
 }
 /*=============== FOOTER ===============*/
