@@ -732,7 +732,8 @@ margin-bottom: 3rem;
   color: var(--text-color);
   outline: none;
   padding: 1.5rem;
-  
+  border-radius: .75rem;
+
 }
 /*=============== FOOTER ===============*/
 
