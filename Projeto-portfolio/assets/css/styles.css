@@ -804,6 +804,16 @@ margin-bottom: 3rem;
 }
 /*=============== SCROLL BAR ===============*/
 
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(var(--second-hue), 8%, 38%);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color:  hsl(var(--second-hue), 8%, 26%);
+  border-radius: .5rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
