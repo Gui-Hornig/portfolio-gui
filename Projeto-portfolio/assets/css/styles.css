@@ -754,7 +754,9 @@ margin-bottom: 3rem;
   resize: none;
 }
 /*=============== FOOTER ===============*/
-
+.footer{
+  background-color: var(--first-color);
+}
 
 /*=============== SCROLL BAR ===============*/
 
