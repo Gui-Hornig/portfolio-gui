@@ -795,8 +795,13 @@ margin-bottom: 3rem;
   display: inline-flex;
 }
 
-
-
+.footer__copy{
+  display: block;
+  margin-top: 4.5rem;
+  color: var(--container-color);
+  text-align: center;
+  font-size: var(--small-font-size);
+}
 /*=============== SCROLL BAR ===============*/
 
 
