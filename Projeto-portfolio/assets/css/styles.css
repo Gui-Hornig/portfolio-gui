@@ -373,6 +373,7 @@ body.light-theme{
   display: flex;
   font-size: 1rem;
   transition: .4rem;
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .home__social-link:hover{
@@ -907,7 +908,30 @@ transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-
+@media screen and (max-width: 320px){
+  .nav__menu{
+    padding: 1rem 1.5rem;
+  }
+  .home__buttons{
+    flex-direction: column;
+  }
+  .home__handle{
+    width: 150px;
+    height: 235px;
+  }
+  .home__img{
+    width: 130px;
+  }
+  .about__info{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skills__box{
+    column-gap: 1rem;
+  }
+  .skills__name{
+    font-size: var(--small-font-size);
+  }
+}
 
 /* For medium devices */
 
