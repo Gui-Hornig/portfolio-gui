@@ -116,6 +116,10 @@ img {
   transition: .3s;
 }
 
+.change-them:hover{
+  color: var(--first-color);
+}
+
 /*========== Variables Dark theme ==========*/
 
 
