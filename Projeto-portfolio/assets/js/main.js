@@ -95,7 +95,7 @@ window.addEventListener('scroll', scrollActive)
 
 /*=============== LIGHT DARK THEME ===============*/ 
 const themeButton = document.getElementById('theme-button')
-const darkTheme = 'dark-theme'
+const lightTheme = 'light-theme'
 const iconTheme = 'bx-sun'
 
 // Previously selected topic (if user selected)
