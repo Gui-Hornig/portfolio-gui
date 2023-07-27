@@ -82,7 +82,7 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: .4s; /* for light mode animation */
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 h1, h2, h3 {
@@ -148,14 +148,19 @@ body.light-theme{
   box-shadow: 0 2px 8px hsla(var(--second-hue), 48%, 8%, .1);
  }
 
- .light-theme .home__social::after{
+ .light-theme .home__social::after,
+ .light-theme .footer__social-link{
   background-color: var(--title-color);  /*Altera a cor da barrinha na home*/
  }
 
 .light-theme .home__social-link,
 .light-theme .home__scroll,
 .light-theme .button,
-.light-theme .button:hover{
+.light-theme .button:hover,
+.light-theme .active-work,
+.light-theme .footer__title,
+.light-theme .footer__link,
+.light-theme .footer__copy{
   color: var(--title-color);
 }
 
@@ -164,10 +169,25 @@ body.light-theme{
 }
 
 .light-theme .skills__content,
-.light-theme .services__card{
+.light-theme .services__card,
+.light-theme .work__card,
+.light-theme .testimonial__card,
+.light-theme .contact__card{
   box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%, .1);
 }
 
+
+.light-theme::-webkit-scrollbar{
+  background-color: hsl(var(--second-hue), 8%, 66%);
+}
+
+.light-theme::-webkit-scrollbar-thumb{
+  background-color: hsl(var(--second-hue), 8%, 54%);
+}
+
+.light-theme::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(var(--second-hue), 8%, 44%);
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -214,6 +234,8 @@ body.light-theme{
   width: 100%;
   background-color: var(--body-color);
   z-index: var(--z-fixed);
+  transition: 2s; /*Suavisa a troca de ilminacao*/
+
 }
 
 .nav{
@@ -241,6 +263,7 @@ body.light-theme{
   border-radius: 4rem;
   padding: 1rem 2.25rem;
   backdrop-filter: blur(10px);
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .nav__list{
@@ -391,7 +414,7 @@ justify-items: center;
   padding: .75rem 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
-  transition: .4s;
+  transition: .2s;
 }
 
 .button:hover{
@@ -430,6 +453,7 @@ justify-items: center;
   background-color: var(--container-color);
   border-radius: .75rem;
   padding: .75rem .5rem;
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .about__icon{
@@ -460,6 +484,7 @@ padding-top: 1rem;
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: 1.25rem;
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .skills__title{
@@ -512,6 +537,7 @@ padding-top: 1rem;
   background-color: var(--container-color);
   padding: 3rem 1.5rem 1.5rem;
   border-radius: 1rem;
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .services__title{
@@ -549,6 +575,7 @@ padding-top: 1rem;
    opacity: 0;
   transition: .4s;
   z-index: var(--z-modal);
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .services__modal-content{
@@ -588,6 +615,7 @@ padding-top: 1rem;
 .services__modal_icon{
   font-size: 1.5rem;
   color: var(--first-color);  /* posivel erro pois não ficou roxo / resolvido */ 
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .services__modal-info{
@@ -601,6 +629,7 @@ padding-top: 1rem;
   font-size: 1.5rem;
   color: var(--first-color);
   cursor: pointer;
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 /*Active modal*/
 .active-modal{
@@ -633,6 +662,7 @@ padding-top: 1rem;
   background-color: var(--container-color);
   padding: 1rem;
   border-radius: 1rem;
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .work__img{
@@ -653,6 +683,7 @@ padding-top: 1rem;
   display: flex;
   align-items: center;
   column-gap: .25rem;
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .work__button:hover .work__icon{
@@ -675,6 +706,7 @@ background-color: var(--container-color);
 padding: 1.25rem 1.5rem;
 border-radius: 1.5rem;
 margin-bottom: 3rem;
+transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .testimonial__img{
@@ -700,6 +732,7 @@ margin-bottom: 3rem;
 
 .swiper-pagination-bullet-active{
   background-color: var(--first-color);
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 /*=============== CONTACT ===============*/
@@ -724,6 +757,7 @@ margin-bottom: 3rem;
   padding: 1rem;
   border-radius: .75rem;
   text-align: center;
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .contact__card-icon{
@@ -739,6 +773,7 @@ margin-bottom: 3rem;
 
 .contact__card-title{
   font-weight: var(--font-medium);
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .contact__card-data{
@@ -753,6 +788,7 @@ margin-bottom: 3rem;
   align-items: center;
   justify-content: center;
   column-gap: .25rem;
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .contact__button:hover .contact__button-icon{
@@ -782,6 +818,7 @@ margin-bottom: 3rem;
   padding: 1.5rem;
   border-radius: .75rem;
   z-index: 1;
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .contact__form-tag{
@@ -792,6 +829,7 @@ margin-bottom: 3rem;
   padding: .25rem;
   background-color: var(--body-color);
   z-index: 10;
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .contact__form-area{
@@ -813,6 +851,7 @@ margin-bottom: 3rem;
 .footer__title,
 .footer__link{
   color: var(--body-color);
+  transition: 2s; /*Suavisa a troca de ilminacao*/
 }
 
 .footer__title{
