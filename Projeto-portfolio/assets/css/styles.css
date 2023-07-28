@@ -12,13 +12,16 @@
         Blue: hsl(207, 90%, 72%)
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
+        Orange:hsl(14, 100%, 64%)
+        https://colors.dopely.top/ 
+        color conversions
   */
-  --first-hue: 207;
-  --sat: 90%;
-  --lig: 72%;
+  --first-hue: 14;
+  --sat: 100%;
+  --lig: 64%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 60%); /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
