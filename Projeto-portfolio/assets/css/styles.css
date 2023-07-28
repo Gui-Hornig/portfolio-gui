@@ -982,6 +982,19 @@ transition: 2s; /*Suavisa a troca de ilminacao*/
   .services__modal-description{
     padding: 0 3.5rem;
   }
+
+  .work__container{
+    justify-content: center;
+  }
+
+  .work__img{
+    width: 295px;
+  }
+
+  .contact__info{
+    grid-template-columns: 300px;
+    justify-content: center;
+  }
 }
 
 /* For large devices */
