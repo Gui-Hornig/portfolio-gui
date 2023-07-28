@@ -1106,6 +1106,21 @@ transition: 2s; /*Suavisa a troca de ilminacao*/
   .work__img{
     margin-bottom: 1rem;
   }
+
+  .work__title{
+    margin-bottom: .5rem;
+  }
+
+  .testimonial__container{
+    width: 750px;
+  }
+  .testimonial__card{
+    padding: 1.5rem 2rem;
+  }
+
+  .contact__container{
+    column-gap: 6rem;
+  }
 }
 
 
