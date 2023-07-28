@@ -1121,6 +1121,10 @@ transition: 2s; /*Suavisa a troca de ilminacao*/
   .contact__container{
     column-gap: 6rem;
   }
+
+  .footer__social-link{
+    font-size: 1.25rem;
+  }
 }
 
 
