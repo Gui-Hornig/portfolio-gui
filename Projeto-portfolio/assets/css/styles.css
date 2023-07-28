@@ -980,7 +980,7 @@ transition: 2s; /*Suavisa a troca de ilminacao*/
     padding: 4.5rem 2.5rem 2.5rem;
   }
   .services__modal-description{
-    
+    padding: 0 3.5rem;
   }
 }
 
