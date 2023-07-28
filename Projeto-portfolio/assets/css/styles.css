@@ -1003,4 +1003,8 @@ transition: 2s; /*Suavisa a troca de ilminacao*/
 
 /* For large devices */
 
-2:14:38
+@media screen and (min-width: 767px){
+  .work__container{
+    grid-template-columns: repeat(2, max-content);
+  }
+}
