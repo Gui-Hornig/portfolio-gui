@@ -1027,4 +1027,16 @@ transition: 2s; /*Suavisa a troca de ilminacao*/
   .section__title{
     margin-bottom: 3.5rem;
   }
+
+  .nav{
+    height: calc(var(--header-height) + 1rem);
+  }
+
+  .home__handle{
+    width: 290px;
+    height: 400px;
+  }
+  .home__img{
+    
+  }
 }
