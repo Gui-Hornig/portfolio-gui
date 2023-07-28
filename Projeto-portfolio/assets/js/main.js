@@ -135,4 +135,5 @@ const sr =ScrollReveal({
 
 sr.reveal(`.home__data`)
 sr.reveal(`.home__handle`, {delay:700})
-sr.reveal(`.home__social, .home__scroll`, {delay: 900, origin: 'buttom'})
+sr.reveal(`.home__social`, {delay: 800, origin: 'left'})
+sr.reveal(`.home__scroll`, {delay: 800, origin: 'right'})
