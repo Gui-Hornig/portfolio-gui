@@ -1098,6 +1098,14 @@ transition: 2s; /*Suavisa a troca de ilminacao*/
   .work__container{
     gap: 3rem;
   }
+
+  .work__card{
+    padding: 1.25rem;
+  }
+
+  .work__img{
+    margin-bottom: 1rem;
+  }
 }
 
 
