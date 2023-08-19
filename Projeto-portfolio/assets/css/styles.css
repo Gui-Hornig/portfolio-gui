@@ -258,6 +258,8 @@ body.light-theme{
   color: var(--first-color);
   font-weight: var(--font-medium);
   transition: .4s;
+  max-width: 100%;
+  margin-left: 40%;
 }
 
 .nav__logo:hover{
@@ -951,6 +953,7 @@ transition: 2s; /*Suavisa a troca de ilminacao*/
   .work__filters{
     column-gap: .25rem;
   }
+ 
 }
 
 /* For medium devices */
